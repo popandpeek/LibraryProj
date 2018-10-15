@@ -1,0 +1,148 @@
+Script started on Sat 11 Mar 2017 09:44:01 PM PST
+benpitts@uw1-320-12:~/502-Assignment4$ valgrind ./a.outg++ -std=c++11 *.cpp
+benpitts@uw1-320-12:~/502-Assignment4$ g++ -std=c++11 *.cpp[4Pvalgrind ./a.out
+==7911== Memcheck, a memory error detector
+==7911== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==7911== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==7911== Command: ./a.out
+==7911== 
+Library item not inserted.
+Library item not inserted.
+F  H  5  Daheim Mary                    Fowl Prey                          1991                     
+F  H  5  Daheim Mary                    The Alpine Advocate                1992                     
+F  H  5  Daheim Mary                    The Alpine Betrayal                1993                     
+F  H  5  Forster E. M.                  The Longest Journey                1922                     
+F  H  5  Higgins Colin                  Harold and Maude                   1971                     
+F  H  5  Kerouac Jack                   On the Road                        1955                     
+F  H  5  Kerouac Jack                   The Dharma Bums                    1958                     
+F  H  5  Lawrence D. H.                 Lady Chatterley's Lover            1928                     
+F  H  5  Lawrence D. H.                 Sons and Lovers                    1913                     
+F  H  5  Lewis Sinclair                 Babbitt                            1922                     
+F  H  5  Muller Marcia                  Edwin of the Iron Shoes            1977                     
+F  H  5  Muller Marcia                  Eye of the Storm                   1988                     
+F  H  5  Pirsig Robert                  Zen & the Art of Motorcycle Maint  1974                     
+F  H  5  Tolkien J.R.R.                 The Hobbit                         1937                     
+F  H  5  Walker Alice                   The Color Purple                   1982                     
+F  H  5  Wright Richard                 Native Son                         1940                     
+P  H  1  2009, 1   Vegetarian Times              
+P  H  1  2009, 2   Communications of the ACM     
+P  H  1  2009, 2   Vegetarian Times              
+P  H  1  2009, 3   Communications of the ACM     
+P  H  1  2009, 4   Communications of the ACM     
+P  H  1  2009, 5   Communications of the ACM     
+P  H  1  2009, 7   Communications of the ACM     
+P  H  1  2009, 7   Sigart Bulletin               
+P  H  1  2010, 1   Communications of the ACM     
+P  H  1  2010, 1   Vegetarian Times              
+P  H  1  2010, 2   Communications of the ACM     
+P  H  1  2010, 3   Communications of the ACM     
+P  H  1  2010, 12  Vegetarian Times              
+P  H  1  2012, 3   Communications of the ACM     
+Y  H  5  Butterworth Emma Macalik       As the Waltz was Ending            1982                     
+Y  H  5  Williams Jay                   Danny Dunn & the Homework Machine  1959                     
+Y  H  5  Seuss Dr.                      Horton hears a Who                 1954                     
+Y  H  5  Dragonwagon Crescent           I Hate My Brother Harry            1983                     
+Y  H  5  Numeroff Laura                 If you give a mouse a cookie       1985                     
+Y  H  5  Lobel Arnold                   Martha the Movie Mouse             1966                     
+Y  H  5  Magnus Erica                   Old Lars                           1984                     
+Y  H  5  Peterson Esther Allen          Penelope Gets Wheels               1982                     
+Y  H  5  Litterick Ian                  Robots and Intelligent Machines    1984                     
+Y  H  5  Peet Bill                      Smokey                             1962                     
+Y  H  5  Allen Jeffrey                  The Secret Life of Mr. Weird       1982                     
+Y  H  5  Heide Florence Parry           Treehorn's Wish                    1984                     
+Y  H  5  Seuss Dr.                      Yertle the Turtle                  1950                     
+*** PatronID = 1000  Mouse,  Minnie
+*** PatronID = 1111  Mouse,  Mickey
+*** PatronID = 5000  Moose,  Bullwinkle
+Item is not in our library.
+Item is not currently available.
+Item is not currently available.
+Item is not currently available.
+Item has not been checked out.
+*** PatronID = 1000  Mouse,  Minnie
+Checked out: Muller Marcia                  Edwin of the Iron Shoes            1977                     
+Checked out: Muller Marcia                  Eye of the Storm                   1988                     
+Checked out: Higgins Colin                  Harold and Maude                   1971                     
+*** PatronID = 1111  Mouse,  Mickey
+Checked out: 2010, 1   Communications of the ACM     
+Returned:    Williams Jay                   Danny Dunn & the Homework Machine  1959                     
+Checked out: 2010, 2   Communications of the ACM     
+Checked out: 2009, 7   Communications of the ACM     
+Checked out: Higgins Colin                  Harold and Maude                   1971                     
+*** PatronID = 5000  Moose,  Bullwinkle
+Returned:    Williams Jay                   Danny Dunn & the Homework Machine  1959                     
+Checked out: Heide Florence Parry           Treehorn's Wish                    1984                     
+Checked out: Magnus Erica                   Old Lars                           1984                     
+Checked out: Peet Bill                      Smokey                             1962                     
+Checked out: Seuss Dr.                      Yertle the Turtle                  1950                     
+Checked out: Higgins Colin                  Harold and Maude                   1971                     
+Checked out: Lewis Sinclair                 Babbitt                            1922                     
+*** PatronID = 8888  Pig,  Porky
+Checked out: Forster E. M.                  The Longest Journey                1922                     
+Checked out: Walker Alice                   The Color Purple                   1982                     
+Checked out: Wright Richard                 Native Son                         1940                     
+Checked out: Lawrence D. H.                 Lady Chatterley's Lover            1928                     
+Checked out: Higgins Colin                  Harold and Maude                   1971                     
+*** PatronID = 7777  Spider,  Sammy
+Checked out: Daheim Mary                    The Alpine Betrayal                1993                     
+F  H  5  Daheim Mary                    Fowl Prey                          1991                     
+F  H  4  Daheim Mary                    The Alpine Advocate                1992                     
+F  H  3  Daheim Mary                    The Alpine Betrayal                1993                     
+F  H  4  Forster E. M.                  The Longest Journey                1922                     
+F  H  0  Higgins Colin                  Harold and Maude                   1971                     
+F  H  4  Kerouac Jack                   On the Road                        1955                     
+F  H  4  Kerouac Jack                   The Dharma Bums                    1958                     
+F  H  4  Lawrence D. H.                 Lady Chatterley's Lover            1928                     
+F  H  5  Lawrence D. H.                 Sons and Lovers                    1913                     
+F  H  4  Lewis Sinclair                 Babbitt                            1922                     
+F  H  4  Muller Marcia                  Edwin of the Iron Shoes            1977                     
+F  H  4  Muller Marcia                  Eye of the Storm                   1988                     
+F  H  4  Pirsig Robert                  Zen & the Art of Motorcycle Maint  1974                     
+F  H  4  Tolkien J.R.R.                 The Hobbit                         1937                     
+F  H  4  Walker Alice                   The Color Purple                   1982                     
+F  H  4  Wright Richard                 Native Son                         1940                     
+P  H  1  2009, 1   Vegetarian Times              
+P  H  1  2009, 2   Communications of the ACM     
+P  H  1  2009, 2   Vegetarian Times              
+P  H  1  2009, 3   Communications of the ACM     
+P  H  1  2009, 4   Communications of the ACM     
+P  H  1  2009, 5   Communications of the ACM     
+P  H  0  2009, 7   Communications of the ACM     
+P  H  0  2009, 7   Sigart Bulletin               
+P  H  0  2010, 1   Communications of the ACM     
+P  H  1  2010, 1   Vegetarian Times              
+P  H  0  2010, 2   Communications of the ACM     
+P  H  1  2010, 3   Communications of the ACM     
+P  H  1  2010, 12  Vegetarian Times              
+P  H  1  2012, 3   Communications of the ACM     
+Y  H  5  Butterworth Emma Macalik       As the Waltz was Ending            1982                     
+Y  H  4  Williams Jay                   Danny Dunn & the Homework Machine  1959                     
+Y  H  5  Seuss Dr.                      Horton hears a Who                 1954                     
+Y  H  5  Dragonwagon Crescent           I Hate My Brother Harry            1983                     
+Y  H  5  Numeroff Laura                 If you give a mouse a cookie       1985                     
+Y  H  5  Lobel Arnold                   Martha the Movie Mouse             1966                     
+Y  H  4  Magnus Erica                   Old Lars                           1984                     
+Y  H  5  Peterson Esther Allen          Penelope Gets Wheels               1982                     
+Y  H  5  Litterick Ian                  Robots and Intelligent Machines    1984                     
+Y  H  4  Peet Bill                      Smokey                             1962                     
+Y  H  5  Allen Jeffrey                  The Secret Life of Mr. Weird       1982                     
+Y  H  4  Heide Florence Parry           Treehorn's Wish                    1984                     
+Y  H  4  Seuss Dr.                      Yertle the Turtle                  1950                     
+==7911== 
+==7911== HEAP SUMMARY:
+==7911==     in use at exit: 177,867 bytes in 391 blocks
+==7911==   total heap usage: 807 allocs, 416 frees, 213,604 bytes allocated
+==7911== 
+==7911== LEAK SUMMARY:
+==7911==    definitely lost: 48 bytes in 1 blocks
+==7911==    indirectly lost: 105,115 bytes in 389 blocks
+==7911==      possibly lost: 0 bytes in 0 blocks
+==7911==    still reachable: 72,704 bytes in 1 blocks
+==7911==         suppressed: 0 bytes in 0 blocks
+==7911== Rerun with --leak-check=full to see details of leaked memory
+==7911== 
+==7911== For counts of detected and suppressed errors, rerun with: -v
+==7911== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+benpitts@uw1-320-12:~/502-Assignment4$ exit
+
+Script done on Sat 11 Mar 2017 09:44:24 PM PST
